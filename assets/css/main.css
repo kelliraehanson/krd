@@ -104,7 +104,8 @@ input, select, textarea {
 		font-weight: 400;
 		line-height: 1.75em; */
 
-		font-family: "Merriweather", Georgia, serif;
+		/* font-family: "Merriweather", Georgia, serif; */
+		font-family: adobe-garamond-pro;
 		/* font-weight: 300; */
 		font-weight: lighter;
 		font-size: 1rem;
@@ -124,7 +125,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: black !important;
+			color: #F8D8D3 !important;
 			text-decoration: none;
 		}
 
@@ -156,14 +157,20 @@ input, select, textarea {
 		}
 
 	h1 {
+		font-family: adobe-garamond-pro;
 		font-size: 2em;
+		font-style: normal;
+		letter-spacing: .2em;
 		line-height: 1.5em;
 		font-weight: lighter;
 	}
 
 	h2 {
-		font-size: 1.5em;
+		/* font-family: adobe-garamond-pro; */
+		color: red;
+		font-size: 3em !important; 
 		line-height: 1.5em;
+		/* letter-spacing: 6px !important; */
 	}
 
 	h3 {
@@ -2457,17 +2464,18 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: black;
-			color: grey !important;
+			border-color: #EFEFEF;
+			color: #F8D8D3 !important;
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: rgba(0, 0, 0, 0.5);
-			border-color: black;
-			color: grey !important;
+			/* background-color: rgba(0, 0, 0, 0.5); */
+			background-color: #EFEFEF;
+			border-color: #EFEFEF;
+			color: #F8D8D3 !important;
 		}
 
 		input[type="submit"].icon,
@@ -2633,7 +2641,8 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			/* width: 6.25em; */
+			width: 180px;
 		}
 
 /* Footer */
