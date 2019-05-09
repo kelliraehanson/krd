@@ -2518,25 +2518,26 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #F8D8D3;
-			border-color: #F8D8D3;
-			color: #ffffff !important;
+			background-color: #FFFFFF;
+			border-color: #EFEFEF;
+			color: #7B7A7A !important;
 		}
 
 			input[type="submit"].primary:hover,
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #F8D8D3;
-				border-color: #F8D8D3;
+				color: #F8D8D3 !important;
+				border-color: #EFEFEF;
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #F8D8D3;
-				border-color: #F8D8D3;
+				background-color: #F7F7F7;
+				color: #F8D8D3;
+				border-color: #EFEFEF;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
